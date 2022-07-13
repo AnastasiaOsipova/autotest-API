@@ -1,5 +1,5 @@
 import unittest
-from class_creation import BookingTestClass
+from class_creation import BookingAPI
 
 
 class BookingTest(unittest.TestCase):
@@ -14,7 +14,7 @@ class BookingTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.booking_class = BookingTestClass()
+        cls.booking_class = BookingAPI()
         cls.booking_class.auth(cls.username, cls.password)
 
     def test_booking_create(self):
