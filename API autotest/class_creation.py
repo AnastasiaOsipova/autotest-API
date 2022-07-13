@@ -1,7 +1,7 @@
 import requests
 
 
-class BookingTestClass:
+class BookingAPI:
     """класс с методами для тестирования брони"""
     def __init__(self):
         self.site_url = 'https://restful-booker.herokuapp.com/'
